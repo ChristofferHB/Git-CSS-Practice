@@ -1,0 +1,28 @@
+body {
+  background-color: #a0f0ee;
+}
+
+#movie-friend-container {
+  margin-top: 20px;
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 100px;
+  row-gap: 0.1rem;
+  justify-items: center;
+}
+
+#movie-friend-logo {
+  font-size: 35px;
+  font-weight: 550;
+}
+
+#movie-friend-search-field {
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
