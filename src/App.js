@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import MovieFriend from "./components/MovieFriend/MovieFriend.js";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="outer-container">
-      
+    <div className="app-container">
+      <MovieFriend />
     </div>
   );
 }
