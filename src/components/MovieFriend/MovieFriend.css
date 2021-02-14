@@ -7,22 +7,60 @@ body {
   background-color: white;
   margin: auto;
   width: 400px;
-  height: 300px;
+  height: fit-content;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 400px;
-  grid-template-rows: 100px;
+  grid-template-rows: 100px 50px;
   row-gap: 0.1rem;
   justify-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
 }
 
 #movie-friend-logo {
   font-size: 35px;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 #movie-friend-search-field {
   height: 40px;
   width: 250px;
   text-align: center;
+}
+
+#movie {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 35px 50px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#movie-title-year {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#movie-genre {
+  width: 500px;
+}
+
+#movie-genre-rating {
+  display: grid;
+  grid-template-columns: 40px 0px;
+  grid-template-rows: 10px;
+  column-gap: 8px;
+}
+
+#movie-rating {
+  background-color: #eb8202;
+  text-align: center;
+  border-radius: 100px;
+  color: white;
+}
+
+#movie-director {
+  width: 500px;
+  font-size: 16px;
 }
